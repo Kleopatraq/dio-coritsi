@@ -247,32 +247,26 @@ img {
 
 /* ================== SECOND ABOUT SECTION ================== */
 .second-about-title {
-  font-size: 36px;
+  /* font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--main-title-color);
+  color: var(--main-title-color); */
 }
 .second-about-section {
-  padding-bottom: 120px;
+  /* padding-bottom: 120px; */
 }
 .second-about-list {
-  display: flex;
+  /* display: flex;
   gap: 24px;
-  margin-top: 72px;
+  margin-top: 72px; */
 }
 
 /* ================== TEAM SECTION ================== */
 .team-section {
   background-color: #f4f4fd;
-  /* width: 100%; */
-  padding: 120px 0;
-  margin: 0 auto;
-}
-.team-conteiner {
-  justify-content: center;
-  align-items: center;
+  padding: 96px 0;
 }
 .team-section-title {
   font-size: 36px;
@@ -302,25 +296,21 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .team-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 72px;
 }
 .team-card-describe {
   text-align: center;
   padding: 32px 0;
 }
-
 .team-soc-list {
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
-}
-.list {
 }
 .team-soc-item {
   width: 40px;
@@ -336,17 +326,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: background-color;
+  /* transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.team-soc-link:hover,
-.team-soc-link:focus {
-  background-color: #404bbf;
-}
-.team-soc-icon {
-  /* fill: #ffffff; */
-}
+
+
 /* ================== CUSTOMERS SECTION ================== */
 .customers-section {
   padding: 120px 0;
