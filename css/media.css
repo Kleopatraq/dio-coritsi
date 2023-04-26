@@ -91,7 +91,7 @@
 
   /* ==========HERO========== */
   .hero-section {
-    max-width: 768px;
+    /* max-width: 768px; */
     /* height: 436px; */
     margin: 0 auto;
     background-image: var(--bg-gradient), url(../images/hero-bg/tablet-bg.jpg);
@@ -103,7 +103,7 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     .hero-section {
-      max-width: 768px;
+      /* max-width: 768px; */
       /* height: 436px; */
       margin: 0 auto;
       background-image: var(--bg-gradient),
