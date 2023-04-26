@@ -1,4 +1,9 @@
 @media screen and (max-width: 767px) {
+  @media screen and (min-width: 428px) {
+  .conteiner {
+    width: 428px;
+  }
+}
   .nav-list {
     display: none;
   }
@@ -10,6 +15,11 @@
   }
   .second-about-section {
     display: none;
+  }
+  .customers-list-item {
+    width: calc((100% - 16px) / 2);
+    height: 88px;
+    
   }
 }
 
@@ -124,22 +134,37 @@
   }
 
   /* ================== SECOND ABOUT SECTION ================== */
-}
-@media screen and (max-width: 1157px) {
-  .second-about-section {
-    display: none;
+  @media screen and (max-width: 1157px) {
+    .second-about-section {
+      display: none;
+    }
   }
-
-  /* ================== TEAM SECTION ================== */
-
-  .team-list {
-    column-gap: 24px;
-    row-gap: 64px;
+    
+    /* ================== TEAM SECTION ================== */
+  
+    .team-list {
+      column-gap: 24px;
+      row-gap: 64px;
+    }
+  /* ================== CUSTOMERS SECTION ================== */
+  .customers-list {
+    display: flex;
+    justify-content: center;
+    gap: 72px 24px;
+    flex-wrap: wrap;
   }
-
-
-
+  .customers-list-item {
+   
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
+
 
 /*! ==========SCREEN 1158PX========== */
 
@@ -375,6 +400,56 @@
   }
 
 
+/* ================== CUSTOMERS SECTION ================== */
+.customers-section {
+  /* padding: 120px 0; */
+}
 
+.customers-title {
+  /* font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
+  color: var(--main-title-color); */
+}
+.customers-conteiner {
+  /* display: flex;
+  justify-content: center; */
+}
+.customers-list {
+  /* display: flex;
+  gap: 24px; */
+}
+.customers-list-item {
+  /* width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+}
+.customers-link {
+  /* width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
 
+.customers-list-item:hover {
+  /* border-color: #404bbf; */
+}
+.customers-link:hover > .castomers-icon {
+  /* fill: #404bbf; */
+}
+.castomers-icon {
+  /* fill: #8e8f99; */
+}
+.customers-link > .castomers-icon {
+  /* transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+}
 }
