@@ -129,7 +129,7 @@ img {
   color: var(--main-title-color);
 }
 .studio-mobile {
-  color: #404BBF;
+  color: #404bbf;
 }
 .mobile-address-list {
   display: flex;
@@ -203,12 +203,12 @@ img {
   }
 } */
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .heder-conteiner {
-  min-height: 70px;
+  /* min-height: 70px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -216,7 +216,7 @@ img {
 .modile-menu-open {
   background-color: transparent;
   padding: 0;
-  height: 32px;
+  height: 22px;
 }
 .header-top-line {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
