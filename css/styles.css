@@ -197,11 +197,11 @@ img {
   color: #f4f4fd;
 }
 /* ================== HEDER ================== */
-/* @media screen and (min-width: 428px) {
+@media screen and (min-width: 428px) {
   .conteiner {
     width: 428px;
   }
-} */
+} 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -227,7 +227,7 @@ img {
 .hero-section {
   width: 100%;
   margin: 0 auto;
-  background-image: var(--bg-gradient), url(../images/hero-bg/mobile-bg.jpg);
+  background-image: var(--bg-gradient), url(../images/hero-bg/mobile-dancy.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -239,7 +239,7 @@ img {
     max-width: 428px;
     margin: 0 auto;
     background-image: var(--bg-gradient),
-      url(../images/hero-bg/mobile-bg@x2.jpg);
+      url(../images/hero-bg/mobile-dancy@x2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -433,6 +433,11 @@ img {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.partner-img {
+  width: 120px;
+  height: 80px;
 }
 
 /* ================== FOOTER SECTION ================== */
@@ -735,6 +740,10 @@ img {
   position: relative;
   overflow: hidden;
 }
+
+.video-bg {
+ width: 340px;
+}
 .portfolio-description {
   position: absolute;
   top: 0;
@@ -801,6 +810,28 @@ img {
 .portfolio-list-link:hover > .portfolio-list-description {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.text-vacancy-first {
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #404487;
+}
+.text-vacancy-second {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #404487;
+}
+.text-vacancy {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  color: #56597b;
+}
+.text-vacancy-last {
+  padding-bottom: 30px;
+  padding-left: 10px;
+  color: #2e2f42;
 }
 
 /*! ================== MODAL ================== */
@@ -1029,3 +1060,49 @@ font-weight: 400; */
 /* input {
   color: #404BBF;
 } */
+
+/*! ================== ABOUT PAGE ================== */
+
+.about-title {
+  font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #4d5ae5;
+}
+.about-bg-bord {
+  padding: 150px 50px 50px 50px;
+  background: url(../images/background-about-as.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  margin-bottom: 60px;
+}
+.about-bg-row {
+  display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.about-company-first {
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-left: 50px;
+  color: #404487;
+  margin-bottom: 15px;
+}
+.about-company-text {
+  padding-left: 10px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  color: #404487;
+}
+.about-text-agency {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: #2e2f42;
+}
+
+.contacts-propous {
+  padding-left: 25px;
+  padding-top: 30px;
+}
