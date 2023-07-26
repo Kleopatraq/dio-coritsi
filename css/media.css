@@ -366,7 +366,7 @@
     max-width: 1440px;
     /* height: 436px; */
     margin: 0 auto;
-    background-image: var(--bg-gradient), url(../images/hero-bg/desctop-bg.jpg);
+    background-image: var(--bg-gradient), url(../images/hero-bg/hero-bg-desctopversion.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -379,7 +379,7 @@
       /* height: 436px; */
       margin: 0 auto;
       background-image: var(--bg-gradient),
-        url(../images/hero-bg/desctop-bg@x2.jpg);
+        url(../images/hero-bg/hero-bg-desctopversion@2x.jpg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -720,5 +720,8 @@
   .footer-btn:hover,
   .footer-btn:focus {
     background-color: #404bbf;
+  }
+  .video-bg {
+    width: 1200px;
   }
 }
