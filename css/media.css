@@ -431,7 +431,7 @@
     color: var(--main-title-color);
   }
   .second-about-section {
-    padding-bottom: 120px;
+   margin-bottom: 120px;
   }
   .second-about-list {
     display: flex;
