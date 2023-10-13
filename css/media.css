@@ -136,8 +136,21 @@
 
   /* ================== SECOND ABOUT SECTION ================== */
   @media screen and (max-width: 1157px) {
+    .second-about-title {
+      font-size: 36px;
+      line-height: 1.11;
+      text-align: center;
+      letter-spacing: 0.02em;
+      text-transform: capitalize;
+      color: var(--main-title-color); */
+    }
     .second-about-section {
-      display: none;
+      padding-bottom: 120px; 
+    }
+    .second-about-list {
+      display: flex;
+      gap: 24px;
+      margin-top: 72px;
     }
   }
 
